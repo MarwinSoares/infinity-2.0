@@ -1,4 +1,7 @@
 @charset "utf8";
+body#one{
+    overflow: hidden;
+}
 header{
     width: 920x;
 }
@@ -13,4 +16,282 @@ header{
 }
 .navbar-light .navbar-nav .nav-link:hover{
     color: #9c4fe4;
+}
+
+.imagem-principal{
+
+    float: left bottom;
+
+}
+/* separar*/
+main#home{
+    width: auto;
+    height: 10px;
+    
+}
+
+a.home{ 
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    padding-left: 90px;
+    font-weight: normal;
+    font-size: 20px;
+    text-decoration: none;
+    color: blueviolet;
+
+}
+a.home:hover{
+    text-decoration: none;
+    color: rgb(95, 0, 184);
+
+}
+
+div#home{
+    width: 820px;
+    height: 400px;
+    padding: 35px;
+    margin: 0px;
+    color: blueviolet;
+    padding-left: 150px;
+    position: fixed;
+    clear: both;
+    margin-top: 40px;
+    float: left;
+}
+
+p.no{
+    color: rgb(100, 99, 99);
+    font-size: 1.5em;
+    text-align: justify;
+    font-family: 'docu','cursive';
+}
+h2#di{
+    color: blueviolet;
+    text-align: justify;
+    font-size: 6.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+h2#id{
+    color: blueviolet;
+    text-align: justify;
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: -39px ;
+
+}
+h3#td {
+    font-size: 2.5em;
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    padding-top: 9px;
+    padding-bottom: 40px;
+    color: blueviolet;
+}
+a#did{
+    color: white;
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 48px;
+    background-color: rgb(155, 224, 56);
+    padding: 10px;
+    padding-right: 90px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+    margin-left: 60px;
+}
+a#did:hover{
+    text-decoration: none;
+    background-color: rgb(52, 236, 52);
+}
+
+img#img{
+    float: right;
+}
+
+/*@media(max-width:320px){
+    div#home{
+        width: 400px;
+        height: auto;
+        padding-left: 50px;
+    }
+}*/
+ /*  @media(max-width:600px){
+
+    body#one{
+        width: auto;
+        margin: auto;
+        height: 10px;
+
+
+    }
+    div#nav{
+        width: 200px;
+    }
+    li.home{
+        transform: translate(10px 10px);
+        display: block;
+        list-style: none;
+        padding: 7px;
+    }
+    a.home{
+        transform: translate(10px 10px);
+        padding-left: 0px;
+    }
+    menu#inicio{
+        display: none;
+        transform: translate(-165px, 47px);
+    }
+    div#home{
+       
+        width: 70%;
+        height:auto;
+        display: block;
+        position: relative;
+        top: 0px;
+        left: -127px;
+    }
+    #burguer{ 
+       color: #9603b9;
+       transform: translate(-178px, 50px);
+       font-size: 35px;
+    }
+    #burguer:hover{
+        color: #cc38f1;
+        cursor: pointer;
+        
+    }
+    h2#id {
+        color: blueviolet;
+        text-align: justify;
+        font-size: 25px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-bottom: -39px;
+        padding-bottom: 13px;
+    }
+    h2#di {
+        color: blueviolet;
+        text-align: justify;
+        font-size: 75px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    h3#td {
+        font-size: 30px;
+        font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+        padding-top: 9px;
+        padding-bottom: 40px;}
+        
+    p.no {
+            color: rgb(100, 99, 99);
+            font-size: 20px;
+            text-align: justify;
+            font-family: 'docu','cursive';}
+    a#did {
+            color: white;
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 48px;
+            background-color: rgb(155, 224, 56);
+            padding: 10px;
+          
+            padding-bottom: 20px;
+            padding-top: 20px;
+            padding-left: 40px;
+            padding-right: 40px;
+            margin-left: 0px;
+        }
+
+   }*/
+
+
+   @media (max-width: 575.98px) {
+    div#home{
+        width: 820px;
+        height: 400px;
+        padding: 35px;
+        margin: 0px;
+        color: blueviolet;
+        
+        position: fixed;
+        clear: both;
+        margin-top: 40px;
+        float: left;
+    }
+    a#did {
+        color: white;
+        font-size: 28px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 48px;
+        background-color: rgb(155, 224, 56);
+        padding: 10px;
+        padding-right: 90px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        padding-left: 90px;
+        padding-right: 90px;
+        /* margin-left: 60px; */
+    }
+    h3#td {
+        font-size: 1.5em;
+        font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+        padding-top: 9px;
+        padding-bottom: 40px;
+    }
+    h2#di {
+        color: blueviolet;
+        text-align: justify;
+        font-size: 5.5em;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    }
+
+
+
+/*// `md` applies to small devices (landscape phones, less than 768px)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    div#home{
+        width: 820px;
+        height: 400px;
+        padding: 35px;
+        margin: 0px;
+        color: blueviolet;
+        
+        position: fixed;
+        clear: both;
+        margin-top: 40px;
+        float: left;
+    }
+}
+
+/*// `lg` applies to medium devices (tablets, less than 992px)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    div#home{
+        width: 820px;
+        height: 400px;
+        padding: 35px;
+        margin: 0px;
+        color: blueviolet;
+      
+        position: fixed;
+        clear: both;
+        margin-top: 40px;
+        float: left;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: blueviolet;
+        margin-left: 40px;
+        font-size: 15px;
+    }
+ }
+
+/*// `xl` applies to large devices (desktops, less than 1200px)*/
+@media (min-width:992px) and (max-width: 1199.98px) { 
+    
+    
 }
