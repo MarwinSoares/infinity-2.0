@@ -209,18 +209,19 @@ img#img{
 
 
    @media (max-width: 575.98px) {
-    div#home{
-        width: 820px;
+    div#home {
+        width: 490px;
         height: 400px;
         padding: 35px;
         margin: 0px;
         color: blueviolet;
-        
+
         position: fixed;
         clear: both;
         margin-top: 40px;
         float: left;
     }
+    
     a#did {
         color: white;
         font-size: 28px;
@@ -233,8 +234,8 @@ img#img{
         padding-right: 90px;
         padding-bottom: 20px;
         padding-top: 20px;
-        padding-left: 90px;
-        padding-right: 90px;
+        padding-left: 65px;
+        padding-right: 65px;
         /* margin-left: 60px; */
     }
     h3#td {
@@ -249,14 +250,14 @@ img#img{
         font-size: 5.5em;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
-    }
-
+    
+   }
 
 
 /*// `md` applies to small devices (landscape phones, less than 768px)*/
 @media (min-width: 576px) and (max-width: 767.98px) { 
     div#home{
-        width: 820px;
+        width: 490px;
         height: 400px;
         padding: 35px;
         margin: 0px;
@@ -267,7 +268,23 @@ img#img{
         margin-top: 40px;
         float: left;
     }
+    
+
+    p.no {
+        color: rgb(100, 99, 99);
+        font-size: 20px;
+        text-align: justify;
+        font-family: 'docu','cursive';
+    }
+    h3#td {
+        font-size: 2.3em;
+        font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+        padding-top: 9px;
+        padding-bottom: 40px;
+        color: blueviolet;
+    }
 }
+        
 
 /*// `lg` applies to medium devices (tablets, less than 992px)*/
 @media (min-width: 768px) and (max-width: 991.98px) { 
@@ -294,4 +311,11 @@ img#img{
 @media (min-width:992px) and (max-width: 1199.98px) { 
     
     
+}
+/*index 2*/
+.cor-white{
+    background-color: white;
+}
+.cor-roxo{
+    background-color: blueviolet;
 }
