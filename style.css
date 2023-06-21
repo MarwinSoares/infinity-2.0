@@ -256,19 +256,18 @@ img#img{
 
 /*// `md` applies to small devices (landscape phones, less than 768px)*/
 @media (min-width: 576px) and (max-width: 767.98px) { 
-    div#home{
+    div#home {
         width: 490px;
         height: 400px;
         padding: 35px;
         margin: 0px;
         color: blueviolet;
-        
+
         position: fixed;
         clear: both;
         margin-top: 40px;
         float: left;
     }
-    
 
     p.no {
         color: rgb(100, 99, 99);
@@ -282,6 +281,22 @@ img#img{
         padding-top: 9px;
         padding-bottom: 40px;
         color: blueviolet;
+    }
+    a#did {
+        color: white;
+        font-size: 28px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 48px;
+        background-color: rgb(155, 224, 56);
+        padding: 10px;
+        padding-right: 90px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        padding-left: 65px;
+        padding-right: 65px;
+        /* margin-left: 60px; */
     }
 }
         
